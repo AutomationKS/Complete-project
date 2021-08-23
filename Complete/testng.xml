@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="greenkart.utilites.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="greenkart.testcase.TC_BrocolliTest"/>
+       </classes>
+       </test > <!-- Test -->
+       
+       <test name="Test2">
+       <classes>
+      <class name="greenkart.testcase.TC_SearchTest"/>
+    </classes>
+    </test>
+ 
+</suite> <!-- Suite -->
